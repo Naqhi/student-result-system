@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>student-result</title>
+    <title>Student Result</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>home page</h1>
+    <header class="flex">
+        <div>
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div>
+            <button class="admin">Admin</button>
+        </div>
+    </header>
+
+    <main>
+        <h1>Nizam Institution Of IT technologyx</h1>
+
+        <div class="main-box">
+            <h2>Exam Result</h2>
+        </div>
+
+        <div class="form-container">
+            <form>
+                <label for="textbox">Enter USN:</label>
+                <input type="text" id="textbox" name="textbox" placeholder="USN" required>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
